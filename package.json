@@ -1,0 +1,19 @@
+{
+  "name": "pm2-zero",
+  "version": "1.0.0",
+  "description": "pm2 zero downtime example",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "reload": "pm2 reload ecosystem.config.js",
+    "log": "pm2 log app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pm2": "2.10.1",
+    "uuid": "^3.3.2"
+  }
+}
